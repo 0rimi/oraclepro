@@ -14,9 +14,9 @@ drop sequence seq_person_id;
 --테이블 생성
 create table person(
     person_id	number(5),
-    name   	varchar2(20)     NOT NULL,
-    hp		varchar2(20),
-    company	varchar2(20),
+    name   	varchar2(30)     NOT NULL,
+    hp		varchar2(30),
+    company	varchar2(30),
     PRIMARY KEY(person_id)	
 );
 
